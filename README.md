@@ -17,7 +17,7 @@ the value itself. Because each value added is greater than the last, the tree's 
 value of the root node is 1, as that was the first value added, so the depth of 1 is 0. The depth of the tree is one
 less than the highest value. The last/highest value added to the tree is 100, so the depth of the tree is 99.
 
-![inOrderTree](images/InOrderTree.png)
+![inOrderTree](images/inOrderTree.png)
 
 ### Shuffled binary search tree
 When values 1-100 are inserted in random order to a binary search tree, the depths will vary depending on the order of
@@ -26,7 +26,7 @@ depth of the tree will also change based on the order of insertions, but it will
 in order insertion tree. This is because each value added could either be less than or greater than the one before it,
 so the structure of the tree will not be a straight line.
 
-![shuffledTree](images/ShuffledTree.png)
+![shuffledTree](images/shuffledTree.png)
 
 ### Custom data type binary search tree
 Using objects of the custom data type produces similar results to the in order insertions. The root node is the first
@@ -35,7 +35,7 @@ a chart of the top songs on Spotify, so each song has a position on the chart th
 position will be the root node with a depth of 0. The rest of the songs will follow this pattern, with the depth being
 one less than their position on the charts. Since there are 4,899 songs on the chart, the depth of the tree is 4,898.
 
-![spotifyTree](images/SpotifyTree.png)
+![spotifyTree](images/spotifyTree.png)
 
 ## AVL Trees
 ### In order AVL tree
@@ -43,21 +43,21 @@ Because the AVL tree is self-balancing, the values will not remain in the same o
 node with a depth of 0 is 64. The depth of the tree will be much less than the binary tree, because the nodes will have
 both left and right children. The depth of this tree is 6, while the BST's depth with the same values is 99.
 
-![inOrderAVLTree](images/InOrderAVL.png)
+![inOrderAVLTree](images/inOrderAVL.png)
 
 ### Shuffled AVL tree
 Again, because the AVL tree is self-balancing, the values do not stay in the order they are inserted in. The root node
 will change based on the order of insertion of the values. No matter the order of insertion, because the AVL preserves
 the complete property, the depth will always be 7.
 
-![shuffledAVLTree](images/ShuffledAVLTree.png)
+![shuffledAVLTree](images/shuffledAVLTree.png)
 
 ### Custom data type AVL tree
 The AVL tree's self-balancing property again means that values will not remain in the same order they are inserted in.
 The root node is the song at position 2048. The depth of the tree is 12, again much less than that of the BST with
 depth 4,898.
 
-![spotifyAVLTree](images/SpotifyAVLTree.png)
+![spotifyAVLTree](images/spotifyAVLTree.png)
 
 ## Splay Trees
 ### In order splay tree
@@ -67,17 +67,17 @@ becomes the left child of the new root. This pattern repeats, so the next node t
 the root and the depth will always be 1. The depths will be much lower because values are splayed once they are
 accessed.
 
-![inOrderSplayTree](images/InOrderSplay.png)
+![inOrderSplayTree](images/inOrderSplay.png)
 
 ### Shuffled splay tree
 The depth of this splay tree will depend on the order of the values inserted. Because the values are inserted in random
 order, unless the first value happens to be the root node, there is no way to tell what value is the root node from the
 CSV file. This is because the root node will change everytime we find and splay a value.
 
-![shuffledSplayTree](images/ShuffledSplayTree.png)
+![shuffledSplayTree](images/shuffledSplayTree.png)
 
 ### Custom data type splay tree
 The splay tree of the custom data type is very similar to the in order insertion splay tree. The root node will again
 be the first value inserted. The depth for every value after that will be 1, for the same reason as the in order tree.
 
-![spotifySplayTree](images/SpotifySplayTree.png)
+![spotifySplayTree](images/spotifySplayTree.png)
