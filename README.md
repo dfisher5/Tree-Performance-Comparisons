@@ -1,7 +1,7 @@
 # Tree Performance Comprisons
 This project is a combination of work from two different courses: Data Structures and Algorithms and Advanced Programming. It uses both C++ and Python.
 
-All files other than Graphing.py originate from a Data Structures and algorithms project in which I compared the efficiency of AVL, Splay, and Binary Search Trees. I tested these algorithms sorting vectors of numbers, and sorting a vector of a custom data type, which I call "Spotify". This data type is created using a data set of the top 5,000 songs on Spotify based on streams.
+All files other than Graphing.py originate from a Data Structures and Algorithms project in which I compared the efficiency of AVL, Splay, and Binary Search Trees. I tested these algorithms sorting vectors of numbers, and sorting a vector of a custom data type, which I call "Spotify". This data type is created using a data set of the top 5,000 songs on Spotify based on streams.
 
 The original project wrote the data to csv files, which I then used in Excel to create graphs of the findings. In Advanced Programming, the Graphing.py file was added, which uses Python's Matplotlib library to automatically generate graphs from the csv files that are created by the program.
 
