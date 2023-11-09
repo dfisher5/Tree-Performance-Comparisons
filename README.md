@@ -1,5 +1,11 @@
-# M3AP-ssteve10-dfisher5 - Sarah Stevens, Delaney Fisher
+# Tree Performance Comprisons
+This project is a combination of work from two different courses: Data Structures and Algorithms and Advanced Programming. It uses both C++ and Python.
 
+All files other than Graphing.py originate from a Data Structures and algorithms project in which I compared the efficiency of AVL, Splay, and Binary Search Trees. I tested these algorithms sorting vectors of numbers, and sorting a vector of a custom data type, which I call "Spotify". This data type is created using a [data set]([url](https://www.kaggle.com/datasets/rakkesharv/spotify-top-10000-streamed-songs)) of the top 5,000 songs on Spotify based on streams.
+
+The original project wrote the data to csv files, which I then used in Excel to create graphs of the findings. In Advanced Programming, the Graphing.py file was added, which uses Python's Matplotlib library to automatically generate graphs from the csv files that are created by the program.
+
+The AVLTree, SplayTree, and BinarySearchTree files are largely written by Lisa Dion and Clayton Cafiero, professors of the Data Structures and Algorithms course. I have made small modifications which are documented in the header of those files. The Spotify header and cpp files are written entirely by me, and Graphing.py was written by a peer and I who worked together on the project.
 ## Binary Search Trees
 
 ### In order binary search tree
